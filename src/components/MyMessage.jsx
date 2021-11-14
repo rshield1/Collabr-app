@@ -6,6 +6,7 @@ const MyMessage = ( { message }) => {
                 alt="message-attachment"
                 className="message-image"
                 style={{ float: 'right' }}
+            />
         )
     }
     return (
