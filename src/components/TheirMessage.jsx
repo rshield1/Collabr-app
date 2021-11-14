@@ -6,7 +6,7 @@ const TheirMessage = ({ lastMessage, message }) => {
                 <div
                     className="message-avatar"
                     style={{ backgroundImage: `url(${message?.sender?.avatar})` }}
-                    />
+                />
             )}
             { message?.attachments?.length > 0 
                 ? (
